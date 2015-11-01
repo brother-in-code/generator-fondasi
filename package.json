@@ -1,0 +1,30 @@
+{
+  "name": "generator-fondasi",
+  "version": "1.0.0",
+  "description": "Generator yeoman for fondasi",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brother-in-code/generator-fondasi"
+  },
+  "bugs": {
+    "url": "https://github.com/brother-in-code/generator-fondasi/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generator",
+    "yeoman"
+  ],
+  "files": [
+    "generators/app",
+    "generators/router"
+  ],
+  "author": "Brother in Code",
+  "license": "MIT",
+  "dependencies": {
+    "update-notifier": "^0.5.0",
+    "yeoman-generator": "^0.21.1"
+  }
+}

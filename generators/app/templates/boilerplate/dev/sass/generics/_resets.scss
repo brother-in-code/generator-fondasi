@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: $black;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+address {
+    font-style: normal;
+}
+
+table {
+    width: 100%;
+}
+
+figure {
+    margin: 0 0 $space 0;
+}
+
+label, 
+input, 
+button, 
+select, 
+textarea {
+    font-family: $base_font_family;
+}
+
+// Fix small bullet on Webkit
+// http://goo.gl/WgqfpM
+input[type="password"] {
+    font: small-caption;
+    font-size: 1em;
+}
+
+canvas {
+    vertical-align: middle;
+}
+
+.browsehappy {
+    background: #FFD17D;
+    border-bottom: solid 1px #FFCC6F;
+    color: #222;
+    font-size: .8em;
+    margin: 0 0 .2em;
+    padding: .4em 0;
+    text-align: center;
+}
+
+input[type="number"] {
+    -moz-appearance:textfield;
+}
+
+// Hide input type number spinner
+// http://goo.gl/lcCQgB
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+
+// Fix windows phone viewport bug - http://goo.gl/knRaIp
+// ------------------------------------------------------------------------ //
+
+@viewport { width: device-width }
+
+
+// http://goo.gl/e0gJzS
+// ------------------------------------------------------------------------ //
+
+input[type="search"] {
+    box-sizing: border-box;
+}
