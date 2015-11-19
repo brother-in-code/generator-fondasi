@@ -1,6 +1,6 @@
 {
   "name": "generator-fondasi",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Generator yeoman for fondasi",
   "main": "index.js",
   "repository": {
